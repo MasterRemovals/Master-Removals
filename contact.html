@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Master Removals</title>
+<meta name="description" content="Get in touch with Master Removals for a quote on your house removal, office removal, packing or storage needs.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="nav-mark">Master Removals</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+      <li><a href="mailto:info@masterremovals.co.uk" class="nav-cta">Get a quote</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+  </nav>
+</header>
+
+<section class="hero-plane" style="padding: 72px 28px 64px;">
+  <div class="hero-inner">
+    <div class="wordmark-panel">
+      <span class="eyebrow eyebrow--on-green">Get in touch</span>
+    </div>
+    <h1 class="hero-title" style="font-size: clamp(2.2rem, 5.5vw, 3.6rem);">Contact</h1>
+    <p class="hero-sub">Tell us what's moving and where, and we'll get back to you with a quote.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap contact-grid">
+    <div class="contact-info">
+      <h3>Email</h3>
+      <p><a href="mailto:info@masterremovals.co.uk">info@masterremovals.co.uk</a></p>
+
+      <h3>Service area</h3>
+      <p>London and the surrounding areas, including Surrey, Kent, Essex and Hertfordshire.</p>
+
+      <h3>Response time</h3>
+      <p>We reply to most enquiries within one working day.</p>
+
+      <h3>What to include</h3>
+      <p>Your postcode areas (from and to), roughly how much is moving, and your preferred dates — the more detail, the more accurate your quote.</p>
+    </div>
+
+    <form class="form-panel" action="mailto:info@masterremovals.co.uk" method="post" enctype="text/plain">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="Name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="Email" required>
+
+      <label for="service">Service needed</label>
+      <select id="service" name="Service">
+        <option>House removals</option>
+        <option>Office removals</option>
+        <option>Packing</option>
+        <option>Storage</option>
+        <option>Man &amp; van</option>
+      </select>
+
+      <label for="details">Move details</label>
+      <textarea id="details" name="Details" placeholder="Moving from / to, approximate size, preferred dates" required></textarea>
+
+      <button type="submit" class="btn btn--gold">Send enquiry</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-mark">Master Removals</div>
+        <p>House removals, office removals, packing and storage across London and the surrounding areas.</p>
+      </div>
+      <div>
+        <h4>Navigate</h4>
+        <p><a href="index.html">Home</a><br><a href="services.html">Services</a><br><a href="contact.html">Contact</a></p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p><a href="mailto:info@masterremovals.co.uk">info@masterremovals.co.uk</a><br>London &amp; surrounding areas</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Master Removals</span>
+      <span>London, UK</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
